@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25015797210F4B6300D3662B /* IMG_8641.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 25015796210F4B6300D3662B /* IMG_8641.JPG */; };
 		252E5CF8210F48DB004708B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E5CF7210F48DB004708B8 /* AppDelegate.swift */; };
 		252E5CFA210F48DB004708B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E5CF9210F48DB004708B8 /* ViewController.swift */; };
 		252E5CFD210F48DB004708B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252E5CFB210F48DB004708B8 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25015796210F4B6300D3662B /* IMG_8641.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_8641.JPG; path = "../Hello Pictures/IMG_8641.JPG"; sourceTree = "<group>"; };
 		252E5CF4210F48DB004708B8 /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		252E5CF7210F48DB004708B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		252E5CF9210F48DB004708B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 			children = (
 				252E5CF6210F48DB004708B8 /* Hello */,
 				252E5CF5210F48DB004708B8 /* Products */,
+				25015796210F4B6300D3662B /* IMG_8641.JPG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +128,7 @@
 			files = (
 				252E5D02210F48DB004708B8 /* LaunchScreen.storyboard in Resources */,
 				252E5CFF210F48DB004708B8 /* Assets.xcassets in Resources */,
+				25015797210F4B6300D3662B /* IMG_8641.JPG in Resources */,
 				252E5CFD210F48DB004708B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -288,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
