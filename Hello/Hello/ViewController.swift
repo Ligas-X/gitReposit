@@ -12,7 +12,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var labelHello: UILabel!
     @IBAction func buttonOK(_ sender: Any) {
-        self.labelHello.text = "Приветствую вас, " + nameField.text! + "!"
+        if nameField.text == ""
+        {
+            self.labelHello.text = "Приветствую вас, незнакомец!"
+        }
+        else
+        {
+            self.labelHello.text = "Приветствую вас, " + nameField.text! + "!"
+        }
     }
 
     override func viewDidLoad() {
