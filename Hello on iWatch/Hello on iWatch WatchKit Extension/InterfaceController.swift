@@ -11,7 +11,17 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-
+    @IBOutlet var helloLabel: WKInterfaceLabel!
+    @IBAction func helloButton() {
+        let hello = "И вам привет!"
+        helloLabel.setText(hello)
+    }
+    @IBAction func canselButton() {
+        let canselMessage = "Hello Again!"
+        helloLabel.setText(canselMessage)
+    }
+    
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         

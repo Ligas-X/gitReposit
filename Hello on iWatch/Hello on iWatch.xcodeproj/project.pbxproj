@@ -20,6 +20,7 @@
 		253D6BF1211729BA007AAE25 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253D6BF0211729BA007AAE25 /* ExtensionDelegate.swift */; };
 		253D6BF3211729BA007AAE25 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253D6BF2211729BA007AAE25 /* NotificationController.swift */; };
 		253D6BF5211729BA007AAE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 253D6BF4211729BA007AAE25 /* Assets.xcassets */; };
+		253D6C06211746AD007AAE25 /* IMG_8641.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 253D6C05211746AC007AAE25 /* IMG_8641.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		253D6BF4211729BA007AAE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		253D6BF6211729BA007AAE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		253D6BF7211729BA007AAE25 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		253D6C05211746AC007AAE25 /* IMG_8641.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_8641.jpg; path = "../Hello Pictures/IMG_8641.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				253D6BDE211729BA007AAE25 /* Hello on iWatch WatchKit App */,
 				253D6BED211729BA007AAE25 /* Hello on iWatch WatchKit Extension */,
 				253D6BC9211729B9007AAE25 /* Products */,
+				253D6C05211746AC007AAE25 /* IMG_8641.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,6 +269,7 @@
 			files = (
 				253D6BD6211729B9007AAE25 /* LaunchScreen.storyboard in Resources */,
 				253D6BD3211729B9007AAE25 /* Assets.xcassets in Resources */,
+				253D6C06211746AD007AAE25 /* IMG_8641.jpg in Resources */,
 				253D6BD1211729B9007AAE25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
